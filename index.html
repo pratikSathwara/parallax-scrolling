@@ -16,7 +16,7 @@
   </video>
 </div>
 </div>
-<div class="javascript es6">
+<div class="javascript_es6">
   <h3>javascript es6</h3>
   <p>  npm install http-server -g</p>
   <p> http-server -p 1234</p>
@@ -54,13 +54,33 @@
   <p> git branch branch_name // create a new branch</p>
   <p> git checkout pratik // pratik name ni branch ma move thava mate</p>
   <p> git merge master // master branch no code current branch ni ander merge thai jaase.</p>
+  <p> git checkout -b new_branch  // become a new branch and also move in new branch</p>
 
+  <p> git remote add learning git@github.com:pratikSathwara/learning_tutorial.git // remote from the git project , repo name is learning</p>
+  <p> git remote //see the remote repo name for ex , learning</p>
+  <p> git remote -v //you can see the remote url and repo name</p>
+  <p> git push learning master // you can push your project on git project</p>
+
+  <p>For adding a new SSH key go to git setting , press the " SSH and GPG keys " , <br>
+    visit this link : https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh <br>
+    In the git bash : <br>
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com" ,<br>
+    eval $(ssh-agent -s) // you got the agent key number , <br>
+    ssh-add ~/.ssh/id_rsa ,<br>
+    cat ~/.ssh/id_rsa.pub // copy the key <br><br>
+    
+    go to add new ssh key : enter the title and key code.</p>
+
+    <p> git remote set-url learning git@github.com:pratikSathwara/learning_tutorial.git // set the url on git</p>
 
   <p> untracked : je file new hoy ane git add . na kari hoy e file ne untracked file kevay.</p>
   <p> unmodified : </p>
   <p> Modified : jyare koi file ma change karyo hoy to e file modified state ma avi jaase </p>
   <p> staged : add . karya pachi ni je file hoy e staged area ma ave.</p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 </div>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <!-- <script type="text/javascript" src="js/custom.js"></script> -->
