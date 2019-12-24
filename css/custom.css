@@ -54,6 +54,6 @@ a{
   background-color: #ddd;
 }
 .javascript_es6 p, .typescript p, .git p{
-  padding: 10px;transition: 0.2s;
+  padding: 10px;transition: 0.2s;margin: 5px;
 }
 .javascript_es6 p:hover, .typescript p:hover, .git p:hover{background-color: #fff;}

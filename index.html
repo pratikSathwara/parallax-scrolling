@@ -28,38 +28,56 @@
 <div class="git">
 <h3>Git hub learning</h3>  
   <p> git balsh is a terminal </p>
+  <h4>configuration </h4>
   <p> git config --global user.name pratiksathwara </p>
   <p> git config --global user.email sathavarapratik76@gmail.com </p>
+  <br>
   <p> git init  // initialized empty git repository </p>
-  <p> ls // you can see all folder are available in project</p>
-  <p> ls --lart // hidden folder you can see </p>
-  <p> git status // see the git status</p>
-  <p> git status -s //see the short information about wroking</p>
+  <p> git add . // add the file into staging</p>
+  <br>
   <p> git commit -m "initial commit  //save the local file on git local</p> 
   <p> git commit -a -m "initial commit  // file wihout going staging area directly commit</p>
+  <br>
+  <p> git push learning master // you can push your project on git project</p>
+  <br>
+  <p> ls // you can see all folder are available in project</p>
+  <p> ls --lart // hidden folder you can see </p>
+  <br>
+  <p> git status // see the git status</p>
+  <p> git status -s //see the short information about wroking</p>
+  <br>
   <p> touch about.html // create the new file in folder</p>
   <p> clear // clear the terminal in git</p>
-  <p> git checkout about.html // last changes are revert form about.html file</p>
-  <p> git checkout -f // all file changes are revert</p>
+
+  <h4>Git log and diff</h4>
   <p> git log // you can see see all log</p>
   <p> git log -p -1 // you can see the number of log using this command.</p>
+  <br>
   <p> git diff // last change no file ma difference batave., working tree ne staging area thi compare kare che </p>
   <p> git diff --staged //staging area ko last commit are se compare karta hai</p>
+
+  <h4>Remove Files</h4>
   <p> git rm --cached contact.html //remove the file working area and added in untracked </p>
   <p> git rm contact.html // remove the contact file from the projct</p>
-  <p> .gitignore //file ya folder gitignore ma nakhva mate pela ene untracked karvama ave che. // untracked kareli file ne gitignore ma add karva thi git tene ignore kare che.</p>
   <p> git rm -r --cached img/  // folder ne untracked karva mate</p>
+
+  <p> .gitignore //file ya folder gitignore ma nakhva mate pela ene untracked karvama ave che. // untracked kareli file ne gitignore ma add karva thi git tene ignore kare che.</p>
   
+  <h4>git branch , checkout , merge</h4>
   <p> git branch // created branch ni list jova mate</p>
   <p> git branch branch_name // create a new branch</p>
+  <br>
   <p> git checkout pratik // pratik name ni branch ma move thava mate</p>
-  <p> git merge master // master branch no code current branch ni ander merge thai jaase.</p>
   <p> git checkout -b new_branch  // become a new branch and also move in new branch</p>
+  <p> git checkout -f // all file changes are revert</p>
+  <br>
+  <p> git merge master // master branch no code current branch ni ander merge thai jaase.</p>
 
-  <p> git remote add learning git@github.com:pratikSathwara/learning_tutorial.git // remote from the git project , repo name is learning</p>
+  <h4>git remote</h4>
   <p> git remote //see the remote repo name for ex , learning</p>
   <p> git remote -v //you can see the remote url and repo name</p>
-  <p> git push learning master // you can push your project on git project</p>
+  <p> git remote add learning git@github.com:pratikSathwara/learning_tutorial.git // remote from the git project , repo name is learning</p>
+  <p> git remote set-url learning git@github.com:pratikSathwara/learning_tutorial.git // set the url on git</p>
 
   <p>For adding a new SSH key go to git setting , press the " SSH and GPG keys " , <br>
     visit this link : https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh <br>
@@ -67,17 +85,13 @@
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com" ,<br>
     eval $(ssh-agent -s) // you got the agent key number , <br>
     ssh-add ~/.ssh/id_rsa ,<br>
-    cat ~/.ssh/id_rsa.pub // copy the key <br><br>
-    
+    cat ~/.ssh/id_rsa.pub // copy the key <br>  
     go to add new ssh key : enter the title and key code.</p>
-
-    <p> git remote set-url learning git@github.com:pratikSathwara/learning_tutorial.git // set the url on git</p>
-
-  <p> untracked : je file new hoy ane git add . na kari hoy e file ne untracked file kevay.</p>
-  <p> unmodified : </p>
-  <p> Modified : jyare koi file ma change karyo hoy to e file modified state ma avi jaase </p>
-  <p> staged : add . karya pachi ni je file hoy e staged area ma ave.</p>
-pratik
+  <br>
+  <p> untracked : je file new hoy ane git add . na kari hoy e file ne untracked file kevay<br>
+  unmodified : <br>
+  Modified : jyare koi file ma change karyo hoy to e file modified state ma avi jaase <br>
+  staged : add . karya pachi ni je file hoy e staged area ma ave.</p>
 </div>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <!-- <script type="text/javascript" src="js/custom.js"></script> -->
