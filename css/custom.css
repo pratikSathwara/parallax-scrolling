@@ -46,3 +46,14 @@ a{
   opacity: 0.5;
   background-color: #000;
 }
+
+.javascript_es6 , .typescript , .git {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px 10px;
+  background-color: #ddd;
+}
+.javascript_es6 p, .typescript p, .git p{
+  padding: 10px;transition: 0.2s;
+}
+.javascript_es6 p:hover, .typescript p:hover, .git p:hover{background-color: #fff;}
