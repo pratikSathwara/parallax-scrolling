@@ -58,7 +58,7 @@ a{
 }
 .javascript_es6 p:hover, .typescript p:hover, .git p:hover{background-color: #fff;}
 
-.designer.{
+.designer{
   margin:10px;
   border:1px solid #000;
   border-radius: 10px;
