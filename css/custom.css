@@ -58,10 +58,15 @@ a{
 }
 .javascript_es6 p:hover, .typescript p:hover, .git p:hover{background-color: #fff;}
 
-.designer{
+.designer_box{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/photo-1559580541-6eae60ea70af.jpg)no-repeat;
+  background-position: top;
+  background-size: cover;
   margin:10px;
+  color: #fff;
   border:1px solid #000;
-  border-radius: 10px;
-  padding: 20px;
+  padding-top: 100px;
+  padding-left: 10px;
   font-size: 22px;
+  height: 50vh;
 }
