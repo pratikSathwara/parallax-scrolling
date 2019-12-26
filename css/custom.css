@@ -57,3 +57,11 @@ a{
   padding: 10px;transition: 0.2s;margin: 5px;
 }
 .javascript_es6 p:hover, .typescript p:hover, .git p:hover{background-color: #fff;}
+
+.designer.{
+  margin:10px;
+  border:1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 22px;
+}
